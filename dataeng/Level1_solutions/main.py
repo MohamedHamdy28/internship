@@ -1,7 +1,7 @@
 import os
 import csv
 
-with open("output.csv","w") as output:
+with open("output.csv", "w") as output:
     fieldnames = ['first_name', ' last_name', ' birthts', 'image_path']
     # first save the data of the users
     output_writer = csv.DictWriter(output, fieldnames=fieldnames, delimiter=",")
